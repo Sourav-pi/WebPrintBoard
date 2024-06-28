@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Input Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container c1">
+        <h1>Status</h1>
+        <p id="status">PRINTING</p>
+    </div>
+    <div class="container c1">
+        <h1>Last Printed</h1>
+        <p id="last_text"></p>
+    </div>
+    <div class="container">
+        <h1>Text Input Form</h1>
+        <form id="textForm">
+            <label for="userInput">Enter your text:</label>
+            <input type="text" id="userInput" name="userInput" required>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="response"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
